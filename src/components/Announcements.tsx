@@ -26,7 +26,7 @@ const Announcements = () => {
     <div className='bg-white p-4 rounded-md '>
     <div className='flex items-center justify-between '>
           <span className='text-lg font-bold'>Announcements</span>
-          <span className="text-xs text-gray-400">View More</span>
+          <span className="text-xs text-gray-400 cursor-pointer">View More</span>
       </div>
       <div className='flex flex-col gap-4 p-2'>
     {announcements.map((announcement) => (
