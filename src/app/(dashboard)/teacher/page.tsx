@@ -2,6 +2,8 @@ import Announcements from "@/components/Announcements"
 import BigCalendar from "@/components/BigCalendar"
 import EventCalendar from "@/components/EventCalendar"
 
+
+
 const TeacherPage = () => {
   return (
     <div className='p-4 flex-1 flex flex-col xl:flex-row'>
